@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three.js Wooden Door</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/three@0.131.3/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/controls/OrbitControls.js"></script>
+    <script defer src="./index.js"></script>
+    
+  </head>
+  <body>
+    <div id="controls">
+      <label for="width">Width:</label>
+      <input
+        type="range"
+        id="width"
+        name="width"
+        min="1"
+        max="5"
+        step="0.1"
+        value="2"
+      />
+      <span id="widthValue">2</span>m
+      <br />
+      <label for="height">Height:</label>
+      <input
+        type="range"
+        id="height"
+        name="height"
+        min="2"
+        max="8"
+        step="0.1"
+        value="4"
+      />
+      <span id="heightValue">4</span>m
+    </div>
+  </body>
+</html>
